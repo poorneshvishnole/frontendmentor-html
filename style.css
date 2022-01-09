@@ -16,15 +16,9 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
   border-radius: 1rem;
   max-width: 100rem;
   box-shadow: 0 0 10px rgb(121, 119, 119);
-}
-.sub-container {
-  display: grid;
-  align-items: center;
 }
 .sub1 {
   background-color: hsl(31, 77%, 52%);
@@ -62,6 +56,24 @@ body {
 }
 .btn-1 {
   color: hsl(31, 77%, 52%);
+}
+.btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
 }
 .btn-2 {
   color: hsl(184, 100%, 22%);
